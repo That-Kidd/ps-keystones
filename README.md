@@ -9,7 +9,7 @@ The passcode itself is not directly stored in the file (a hash of it is stored),
 More details can be found on the [psdevwiki](https://www.psdevwiki.com/ps4/Keystone).
 
 Usually a game will have different keystone files per title.
-For example, if a game has an EU and US release, it is likely that those releases each will have a different keystone.
+For example, if a game has an EU and US release, it is likely that those releases each will have a different keystone due to the passcodes being different.
 A simple way to obtain a keystone is to decrypt a save from the game, its relative path is `sce_sys/keystone`.
 
 ### Why are keystones useful?
@@ -29,6 +29,7 @@ Each console has its own folder with subfolders `Set_XX` for digits `XX` each co
 * [Bawsdeep](https://gitlab.com/BawsDeep)
 * [bucanero](https://github.com/bucanero): [apollo-patches](https://github.com/bucanero/apollo-patches/tree/main/PS4)
 * [garlicsaves](https://garlicsaves.com/tools/sample-saves)
+* [HTOS Discord server](https://discord.gg/BFGNABufk2)
 * [ps4keystones](https://github.com/ps4keystones): [ps4keystones.github.io](https://github.com/ps4keystones/ps4keystones.github.io/tree/master/keystones)
 
 If the source depends on arbitrary user input, the most common keystone collected for each title ID should be selected.
