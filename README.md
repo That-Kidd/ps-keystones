@@ -4,7 +4,7 @@ This repo contains keystone files taken from PS4 and PS5 games.
 
 ### What is a keystone?
 
-A keystone file is 96 bytes long, and is generated using publicly known keys along with a passcode chosen under development of the game.
+A keystone file is 96 bytes long, and is generated using publicly known keys (not known for PS5) along with a passcode chosen under development of the game.
 The passcode itself is not directly stored in the file (a hash of it is stored), nor is it feasible to obtain it from the keystone.
 More details can be found on the [psdevwiki](https://www.psdevwiki.com/ps4/Keystone).
 
